@@ -16,10 +16,6 @@
 
 .hero-image {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 }
 
 .logo-container {
@@ -119,9 +115,7 @@
 
   .hero-image{
     grid-area: hero;
-    justify-self: end;
-    width: 100%;
-    
+    justify-self: end;    
   }
 
   .buttons-container{
@@ -142,3 +136,26 @@
     justify-self: end;
   }
 }
+@media(min-height: 700px){
+
+  .hero-image {
+    width: 80%;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+  
+  .logo-container img {
+    height: 5rem;
+  }
+
+  .logo-container h2 {
+
+    font-weight: 400;
+    font-size: 2.0rem;
+    line-height: 1.8rem;
+    margin-top: 0rem;
+  }
+  
+}    
+
+
